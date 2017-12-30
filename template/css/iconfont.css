@@ -1,0 +1,26 @@
+/* icon css create area */
+@font-face {font-family: "iconfont"; /* icon arrow */
+  src: url('iconfont.eot?t=1510896981228'); /* IE9*/
+  src: url('iconfont.eot?t=1510896981228#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff;charset=utf-8;base64,d09GRgABAAAAAAVAAAsAAAAAB+AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABHU1VCAAABCAAAADMAAABCsP6z7U9TLzIAAAE8AAAARAAAAFZW7kgrY21hcAAAAYAAAABlAAABnM35Z11nbHlmAAAB6AAAAVEAAAGUBW+W8mhlYWQAAAM8AAAALwAAADYPiHCgaGhlYQAAA2wAAAAcAAAAJAfeA4VobXR4AAADiAAAABAAAAAQD+kAAGxvY2EAAAOYAAAACgAAAAoBQACgbWF4cAAAA6QAAAAfAAAAIAETAF1uYW1lAAADxAAAAUUAAAJtPlT+fXBvc3QAAAUMAAAANAAAAFCLrIxSeJxjYGRgYOBikGPQYWB0cfMJYeBgYGGAAJAMY05meiJQDMoDyrGAaQ4gZoOIAgCKIwNPAHicY2Bk/sU4gYGVgYOpk+kMAwNDP4RmfM1gxMjBwMDEwMrMgBUEpLmmMDgwVDyzZ27438AQw9zA0AAUZgTJAQAorwyteJzFkMENwCAMA50CFao6Sp9Vv+zSV0dgYViDOoEPE2B0IbEsBQEgAHDkIh6QDwLVS1fMdzjM93g4R56Ndy6hptamTiWWiNY5TcqOZZJ1q2edVu8x6X/nAZ9YQkf9mjrYfqgPEH8AAAB4nFWMPy8EURTF33lj7syu3Zk1f3dm/88yj2DFGKsQu42GKCQqpQ9AqyGRCFEofAaRKFR6n4RKCNX6CMMbCtmbm3Nzcs/5MZWx71flSakym82yZbbJdhkDzSMyeAMdkfb4PNyO6vqOoYiu6GjdqKdswI/I8ZJ+GvukkQkDTax0kr7ocYHVdMDXkXgNIKiFe9ZM3VJuUKyK5kW2zW/htrp1c7CYbS0MnaRt68clywos61onVdU5nzANHPpeQS0UKbtTzdB9as3xFkqBCHf2y+2adXCVHjVm/AJwdga71jbuh1PhlNyT0LOtQKuU9WpY7k47OH6frNqlRvzG5CAX/sIfmCuNo4GiJcTpECKXfuLD48+UfVKFmkSjEclTIQSEU52yjz/7NcrfmiZj/8xL/vjLTNckpgXPMeHnQpFAjDhnjDFlGec6IRxnypik/QD+Sz3SAAAAeJxjYGRgYADiAwGGFvH8Nl8ZuFkYQOCaybRQBP3/IQsDswSQy8HABBIFAAWxCR0AeJxjYGRgYG7438AQw8IAAkCSkQEVsAAARwoCbQQAAAAD6QAABAAAAAQAAAAAAAAAAHYAoADKAAB4nGNgZGBgYGEIZGBlAAEmIOYCQgaG/2A+AwAREgFxAHicZY9NTsMwEIVf+gekEqqoYIfkBWIBKP0Rq25YVGr3XXTfpk6bKokjx63UA3AejsAJOALcgDvwSCebNpbH37x5Y08A3OAHHo7fLfeRPVwyO3INF7gXrlN/EG6QX4SbaONVuEX9TdjHM6bCbXRheYPXuGL2hHdhDx18CNdwjU/hOvUv4Qb5W7iJO/wKt9Dx6sI+5l5XuI1HL/bHVi+cXqnlQcWhySKTOb+CmV7vkoWt0uqca1vEJlODoF9JU51pW91T7NdD5yIVWZOqCas6SYzKrdnq0AUb5/JRrxeJHoQm5Vhj/rbGAo5xBYUlDowxQhhkiMro6DtVZvSvsUPCXntWPc3ndFsU1P9zhQEC9M9cU7qy0nk6T4E9XxtSdXQrbsuelDSRXs1JErJCXta2VELqATZlV44RelzRiT8oZ0j/AAlabsgAAAB4nGNgYoAALgbsgIWRiZGZkYWRlYGxQqiqNL8yvzQrMzGvJL9UNzm/oJIXRYiBAQATVg4N') format('woff'),
+  url('iconfont.ttf?t=1510896981228') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1510896981228#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+/* icon css call area */
+.iconfont {
+  font-family:"iconfont" !important;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-arrow-rht:before{content:"\e63f";}/* \e63f是标示该图标的唯一ID，调用该ID后再取个名字就可以多次重复使用了*/
+.icon-arrow-lft:before{content:"\e505";}
+
+/* icon css manual set area */
+.icon-arrow-lft,.icon-arrow-rht{
+	font-size:24px;
+	line-height:50px;
+}
+
+

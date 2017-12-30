@@ -1,0 +1,44 @@
+.w1190{width:1190px;margin:0px auto;}/*使用内边距padding使元素居中*/
+.w950{width:950px;margin:0px auto;}
+.fl{float:left;}
+.fr{float:right;}
+.mt20{margin-top:20px;}
+.mt50{margin-top:50px;}
+.buy{
+	display: inline-block;
+	width: 80px;
+	background: #f1f1f1;
+	line-height: 25px;
+}
+.goodsPrice{
+	color: #f5527a;
+	margin: 5px 0;
+	display: inline-block;
+}
+.cols-title{
+	color: red;
+	font-size: 18px;
+}
+.buyHover:hover{
+	color:red;
+}
+.btnHover-lft:hover{
+	background-position: 2px 1px;
+}
+.btnHover-rht:hover{
+	background-position: 2px -70px;
+}
+.boxOpacity{
+	background: #000;
+	opacity:0.4;
+	filter:alpha(opacity=40);
+}
+.positionA{
+	position:absolute;
+}
+.positionR{
+	position:relative;
+}
+.BtnRed_hover{
+	background:#c81623!important;
+}
