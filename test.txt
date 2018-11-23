@@ -8,4 +8,10 @@ the twoth modify
 
 modify.
 
+<<<<<<< HEAD
 modify1.
+=======
+modify1.
+
+modify2.
+>>>>>>> you
