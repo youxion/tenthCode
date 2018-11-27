@@ -1,0 +1,68 @@
+body, div, p, h1, h2, h3, h4, h5, h6, blockquote,  /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre,  /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea,  /* form elements 表单元素 */
+table,th,td/* table elements 表格元素 */{
+	margin:0;
+	padding:0;
+}
+
+body,
+button, input, select, textarea /* for ie */ {
+    font:12px/21px Microsoft YaHei, Arial, sans-serif,"宋体";color:#666;
+}
+html, body{
+	height: 100%;
+}
+h1,h2,h3,h4,h5,h6{font-weight:normal;font-size:100%;}
+address,cite,em,i{font-style:normal;} /* 将斜体扶正 */
+small { font-size: 12px; } /*用于缩小字体，但是小于 12px 的中文很难阅读，让 small 正常化 */
+
+/** 重置列表元素 **/
+ul,li,ol{list-style:none; text-align:center; outline:none;}
+
+a{text-decoration:none;color:#666;}
+/* a:hover{text-decoration:underline;} */
+
+/** 重置表单元素 **/
+legend{color:#000;} /* for ie6 */
+
+fieldset,img,abbr,acronym{border:none;} /* img 搭车：让a链接里的 img 无边框 ----------------------------*/
+
+img{
+    vertical-align:middle; /* 只在图片为行内元素和行内块级元素的情况下有效，也可以去掉图片底部间隙。 */
+}
+
+input,button,select,textarea{outline:none;border:none;font-size:100%;line-height:normal;overflow:hidden;}/* 使得表单元素在 ie 下能继承字体大小 */
+/** 重置表格元素 **/
+table{border-collapse:collapse;border-spacing:0;}
+input[type="button"],input[type="submit"],input[type="reset"]{cursor:pointer;}
+
+/* ie6 7 8(q) bug  -------------------------------*/
+iframe{display:block;}
+
+/* 清浮动 */
+.clearfix:after {
+	visibility:hidden;
+	display:block;
+	font-size:0;
+	content:" ";
+	clear:both;
+	height:0;
+}
+.clearfix {
+	zoom:1; /* for IE6 IE7 */
+}
+
+/* 清除特殊标记的字体和字号 */
+address,caption,cite,code,dfn,em,strong,th,var {   
+　　font-weight:normal;   
+　　font-style:normal;   
+}
+
+textarea{resize:none;}/*文本框禁止托拽*/
+/* 向上的三角形
+.triangle{width:0;height:0;content:"";border:10px solid transparent;
+							border-bottom-color:#d1730d;position:absolute;top:-20px;left:285px;}
+*/
+
