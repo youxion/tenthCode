@@ -6,7 +6,7 @@ const {parseString} = require('xml2js') //将xml数据转换为js对象,parseStr
 
 module.exports = {
 
-  //获取用户发送的消息
+  //获取用户发送的消息                  1
   getUserDataAsync(req) {
     return new Promise((resolve, reject) => {
         let xmlData = ''
@@ -17,8 +17,7 @@ module.exports = {
             xmlData += data.toString() //将每次传送过来的data累加
 
             console.log(data)
-
-
+            
           })
           .on('end', () => { //data传输完成时，会触发当前函数。
             resolve(xmlData)
